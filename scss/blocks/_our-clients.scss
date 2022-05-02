@@ -1,0 +1,31 @@
+.our-clients {
+    background-color:  $bg1-color;
+    background-image: url(../../img/shape4.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(50% - 700px);
+    background-size: 200px 200px;
+    background-position-y: top;
+}
+
+.our-clients__container {
+    padding-top: 140px;
+    padding-bottom: 151px;
+    text-align: center;
+}
+
+.our-clients__heading {
+    margin: 0;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.our-clients__list {
+    @include list-unstyled;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

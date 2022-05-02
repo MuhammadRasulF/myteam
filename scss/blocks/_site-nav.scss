@@ -1,0 +1,26 @@
+.site-nav {
+    margin: 0;
+    margin-right: 575px;
+    padding: 0;
+}
+
+.site-nav__margin {
+    margin-right: 0;
+}
+
+.site-nav__list {
+    @include list-unstyled;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.site-nav__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.site-nav__item-link {
+    @include list-unstyled;
+    text-decoration: none;
+    color: $font-color;
+}

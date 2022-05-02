@@ -1,0 +1,14 @@
+.primary-link {
+    @include list-unstyled;
+    padding: 9px 33px 11px 32px;
+    text-decoration: none;
+    border: 2px solid $font-color;
+    border-radius: 24px;
+    box-sizing: border-box;
+    color: $font-color;
+}
+
+.primary-link__color {
+    color:  $bg4-color;
+    border: 2px solid $bg4-color;
+}

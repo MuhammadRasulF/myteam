@@ -1,0 +1,80 @@
+.meet-director {
+    background-color:  $bg2-color;
+    background-image: url(../../img/shape2.png), url(../../img/shape3.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(50% - 700px), calc(50% + 700px);
+    background-size: 200px 200px;
+    background-position-y: top, bottom;
+}
+
+.meet-director__container {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.meet-director__heading {
+    margin: 0;
+    margin-bottom: 64px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.meet-director__list {
+    @include list-unstyled;
+    margin-left: -30px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meet-director__item {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 350px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 76px;
+    padding: 32px 24px 56px 24px;
+    text-align: center;
+    background-color: $bg3-color;
+}
+
+.meet-director__img {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.meet-director__name {
+    width: 100%;
+    max-width: 302px;
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+    color: $name-color;
+}
+
+.meet-director__job {
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: $font-color;
+}
+
+.meet-director__link {
+    position: absolute;
+    z-index: 2;
+    top: 230px;
+    left: 140px;
+
+    &:hover .meet-director__btn {
+        fill: $name-color;
+        transform: 90deg;
+}
+}

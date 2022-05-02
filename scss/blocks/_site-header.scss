@@ -1,0 +1,11 @@
+.site-header {
+    background-color:  $bg1-color;
+}
+
+.site-header__container {
+    padding-top: 73px;
+    padding-bottom: 62px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

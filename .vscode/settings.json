@@ -1,0 +1,23 @@
+{
+  "liveSassCompile.settings.formats":[
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+  ],
+  "cSpell.words": [
+    "Cristian",
+    "cssretina",
+    "gatgetsnow",
+    "Hillcrest",
+    "Lano",
+    "Livvic",
+    "myteamlogo",
+    "painterets",
+    "techradar",
+    "theguardian",
+    "thejacartapost",
+    "unstyled"
+  ]
+}
